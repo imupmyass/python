@@ -1,0 +1,69 @@
+{
+    "chassis-inventory" : [
+    {
+        "attributes" : {
+            "xmlns" : "http://xml.juniper.net/junos/16.1R1/junos-chassis"
+        },
+        "chassis" : [
+        {
+            "attributes" : {"junos:style" : "inventory"},
+            "name" : [
+            {
+                "data" : "Chassis"
+            }
+            ],
+            "serial-number" : [
+            {
+                "data" : "serial-number"
+            }
+            ],
+            "description" : [
+            {
+                "data" : "MX80-48T"
+            }
+            ],
+            "chassis-module" : [
+            {
+                "name" : [
+                {
+                    "data" : "Midplane"
+                }
+                ],
+                "version" : [
+                {
+                    "data" : "REV 11"
+                }
+                ],
+                "part-number" : [
+                {
+                    "data" : "711-031603"
+                }
+                ],
+                "serial-number" : [
+                {
+                    "data" : "serial-number"
+                }
+                ],
+                "description" : [
+                {
+                    "data" : "MX80-48T"
+                }
+                ],
+                "clei-code" : [
+                {
+                    "data" : "CMMAX10BRD"
+                }
+                ],
+                "model-number" : [
+                {
+                    "data" : "CHAS-MX80-48T-S"
+                }
+                ]
+            }
+            ]
+        }
+        ]
+    }
+    ]
+}
+
