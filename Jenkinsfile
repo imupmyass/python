@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'whoami'
+
         sh 'pip3 install --user -r requirements.txt'
       }
     }
