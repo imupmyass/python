@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'pip3 install -r requirements.txt --download-cache=/tmp/'
+        sh 'pip3 install -r requirements.txt -e /tmp/'
       }
     }
     stage('test') {
