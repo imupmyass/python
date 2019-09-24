@@ -1,1 +1,2 @@
+brew "java"
 brew "python"
