@@ -1,3 +1,3 @@
-brew "javac"
+brew "havac"
 brew "python"
 brew "C#"
